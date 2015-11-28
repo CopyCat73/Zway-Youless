@@ -1,0 +1,58 @@
+{
+   "author" : "CopyCatz",
+   "category" : "energy",
+   "defaults" : {
+      "description" : "__description__",
+      "title" : "__title__",
+      "youless_name" : "Home Usage",
+      "youless_url" : "http://youlessip",
+      "interval" : 1
+   },
+   "dependencies" : [],
+   "homepage" : "https://github.com/CopyCat73",
+   "icon" : "icon.png",
+   "maturity" : "stable",
+   "moduleName" : "Youless",
+   "options" : {
+      "fields" : {
+         "youless_name" : {
+            "label" : "__youless_label__",
+            "order": 1
+         },
+         "youless_url" : {
+            "helper" : "__youless_url_helper__",
+            "label" : "__youless_url_label__",
+            "order" : 2
+         },
+         "interval" : {
+            "helper" : "__interval_helper__",
+            "label" : "__interval_label__",
+            "order": 3
+         }
+      }
+   },
+   "repository" : {
+      "source" : "https://github.com/CopyCat73/Zway-Youless",
+      "type" : "git"
+   },
+   "schema" : {
+      "properties" : {
+         "youless_name" : {
+            "required" : true,
+            "type" : "string"
+         },
+         "youless_url" : {
+            "required" : true,
+            "type" : "string"
+         },
+         "interval" : {
+            "required" : true,
+            "type" : "number"
+         }
+      },
+      "required" : true,
+      "type" : "object"
+   },
+   "singleton" : true,
+   "version" : "1.00"
+}

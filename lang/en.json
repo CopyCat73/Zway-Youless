@@ -1,0 +1,12 @@
+{
+  "title": "Youless",
+  "description": "This module polls a Youless pulse counter and displays its value.",
+  "youless_label": "Device label",
+  "youless_url_label": "Youless url",
+  "youless_url_helper": "The url where your Youless is located",
+  "interval_helper": "The polling interval (in minutes)",
+  "interval_label": "Polling interval",
+  "err_fetch_data": "Error fetching Youless data"
+ }
+ 
+ 
